@@ -15,5 +15,4 @@ def module(request):
     if libPath in sys.modules:
         del sys.modules[libPath]
     moduleToBeTested = imp.load_source(libPath, libPath)
-    print "hola"
     return moduleToBeTested

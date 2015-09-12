@@ -7,7 +7,6 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import mimetypes
 import oauth2client
-import argparse
 import json
 import httplib2
 import os
@@ -18,7 +17,7 @@ class GmailCommunication:
     STANDARD_SUBJECT = "Reporte de tests"
 
     def __init__(self):
-        self.flags = argparse.ArgumentParser(parents=[oauth2client.tools.argparser]).parse_args()
+        self.flags = ""
         self.scopes = 'https://mail.google.com/'
         self.client_secret_file = 'client_secret.json'
         self.application_name = 'Auxiliar CC1002'
@@ -249,7 +248,7 @@ class GmailCommunication:
         sentMessage = self.sendMessage(message)
         return sentMessage
 
-if __name__ == '__main__':
-    g = GmailCommunication()
-    g.buildQuery()
-    g.getMessages()
+# if __name__ == '__main__':
+#     g = GmailCommunication()
+#     g.buildQuery()
+#     g.getMessages()
