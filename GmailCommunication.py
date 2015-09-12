@@ -15,11 +15,11 @@ import base64
 
 
 class GmailCommunication:
-    SUBJECT_TEMPLATE = "Reporte de tests"
+    STANDARD_SUBJECT = "Reporte de tests"
 
     def __init__(self):
         self.flags = argparse.ArgumentParser(parents=[oauth2client.tools.argparser]).parse_args()
-        self.scopes = 'https://www.googleapis.com/auth/gmail.readonly'
+        self.scopes = 'https://mail.google.com/'
         self.client_secret_file = 'client_secret.json'
         self.application_name = 'Auxiliar CC1002'
         credentials = self.getCredentials()
@@ -189,7 +189,7 @@ class GmailCommunication:
         message = MIMEMultipart()
         message['to'] = to
         message['from'] = self.sender
-        message['subject'] = GmailCommunication.SUBJECT_TEMPLATE
+        message['subject'] = GmailCommunication.STANDARD_SUBJECT
 
         # msg = MIMEText(messageText)
         # message.attach(msg)
@@ -248,7 +248,7 @@ class GmailCommunication:
         message = self.createMessageWithAttachment(to, fileDir, fileName)
         sentMessage = self.sendMessage(message)
         return sentMessage
-        
+
 if __name__ == '__main__':
     g = GmailCommunication()
     g.buildQuery()
