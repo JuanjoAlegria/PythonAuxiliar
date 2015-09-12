@@ -1,0 +1,1300 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wr",
+				"wrapped_f"
+			],
+			[
+				"timeout",
+				"timeoutV2	module"
+			],
+			[
+				"Test",
+				"TestCase	class"
+			],
+			[
+				"get",
+				"getMessages	function"
+			],
+			[
+				"gm",
+				"GmailCommunication	module"
+			],
+			[
+				"bu",
+				"build_query	function"
+			],
+			[
+				"b",
+				"build_query	function"
+			],
+			[
+				"Gm",
+				"GmailCommunication	class"
+			],
+			[
+				"import",
+				"importModules	function"
+			],
+			[
+				"re",
+				"reset	function"
+			],
+			[
+				"QaudioD",
+				"QAudioDeviceInfo	class"
+			],
+			[
+				"send",
+				"sending_button	statement"
+			],
+			[
+				"n",
+				"nombre	statement"
+			],
+			[
+				"no",
+				"nombre2	statement"
+			],
+			[
+				"Q",
+				"QWidget"
+			],
+			[
+				"PyQ",
+				"PyQt5	module"
+			],
+			[
+				"ord",
+				"ordenar	function"
+			],
+			[
+				"alF",
+				"alFinal2	function"
+			],
+			[
+				"test",
+				"testOrdenar	function"
+			],
+			[
+				"co",
+				"cosh	function"
+			],
+			[
+				"str",
+				"string	function"
+			],
+			[
+				"p",
+				"predict"
+			],
+			[
+				"data",
+				"dataSet"
+			],
+			[
+				"t",
+				"toPredict"
+			],
+			[
+				"da",
+				"dataSet"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"has",
+				"hashTable"
+			],
+			[
+				"fib",
+				"fibonacci"
+			],
+			[
+				"Otra",
+				"OtraProductora"
+			],
+			[
+				"P",
+				"Pictures"
+			],
+			[
+				"Un",
+				"Universal"
+			],
+			[
+				"Pel",
+				"Película"
+			],
+			[
+				"Peli",
+				"Pelicula13"
+			],
+			[
+				"Fest",
+				"Festivales"
+			],
+			[
+				"Le",
+				"Legendary"
+			],
+			[
+				"Are",
+				"Ariel"
+			],
+			[
+				"Ci",
+				"Cinemark"
+			],
+			[
+				"Personas",
+				"Personas"
+			],
+			[
+				"E",
+				"Elenco"
+			],
+			[
+				"idF",
+				"idFrase"
+			],
+			[
+				"S",
+				"System"
+			],
+			[
+				"ind",
+				"indexOf"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"fot",
+				"font-style"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"va",
+				"validarComentario"
+			],
+			[
+				"nu",
+				"nuevoComentario"
+			],
+			[
+				"ingre",
+				"ingresoComentario"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pi",
+				"position"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"validar",
+				"validarTwitter"
+			],
+			[
+				"pat",
+				"patronMail"
+			],
+			[
+				"vali",
+				"validarNombre"
+			],
+			[
+				"otra",
+				"otraImprudencia"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"opco",
+				"opcionNula"
+			],
+			[
+				"opcion",
+				"opcionNula"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "GmailCommunication.py",
+			"settings":
+			{
+				"buffer_size": 4394,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.json",
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Main.py",
+			"settings":
+			{
+				"buffer_size": 548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "def fact(n):\n    if n <= 1:\n        return 1\n    return n*fact(n-1)",
+			"file": "fact.py",
+			"file_size": 67,
+			"file_write_time": 130859074586639514,
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fact2.py",
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testFact.py",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "timeoutV2.py",
+			"settings":
+			{
+				"buffer_size": 715,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "test_1 (__main__.TestFact) ... ERROR\n\n======================================================================\nERROR: test_1 (__main__.TestFact)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/juanjo/Proyectos/Auxiliar/timeoutV2.py\", line 33, in __call__\n    result = self.function(*args)\nTypeError: test_1() takes exactly 1 argument (0 given)\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (errors=1)\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "test_1 (__main__.TestFact) ... ERROR\n\n======================================================================\nERROR: test_1 (__main__.TestFact)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/usr/lib/python2.7/site-packages/timeout.py\", line 97, in __call__\n    result = self.function(*args)\nTypeError: test_1() takes exactly 1 argument (0 given)\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (errors=1)\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 544,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "run",
+		"selected_items":
+		[
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"sess",
+				"Session Manager: Load Session"
+			],
+			[
+				"sessio",
+				"Session Manager: Load Session"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"js",
+				"Javascript Beautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ru",
+				"SublimeREPL: Python3 - RUN current file"
+			],
+			[
+				"pep8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"p8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"RUN",
+				"SublimeREPL: Python3 - RUN current file"
+			],
+			[
+				"pyt",
+				"SublimeREPL: Python3"
+			],
+			[
+				"mc",
+				"Anaconda: McCabe complexity check"
+			],
+			[
+				"mcc",
+				"Anaconda: McCabe complexity check"
+			],
+			[
+				"anaconda fin",
+				"Anaconda: Find object usage"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"python",
+				"SublimeREPL: Python3"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"settin",
+				"Preferences: Settings - User"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"repl python",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"is",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"disable",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimelinter di",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"toggle lin",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"INS",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Coding Python"
+			],
+			[
+				"snip",
+				"Snippet: Coding Python"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"pdb",
+				"SublimeREPL: Python - PDB current file"
+			],
+			[
+				"python3",
+				"SublimeREPL: Python3"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"repl py",
+				"SublimeREPL: Python"
+			],
+			[
+				"py",
+				"SublimeREPL: Python"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/juanjo/Proyectos/Auxiliar"
+	],
+	"file_history":
+	[
+		"/run/media/juanjo/My Passport/FOTOS DE BARACK OBAMA DELOS DESNUDOS 100% REAL NO FAKE TARINGA 1 LINK",
+		"/run/media/juanjo/My Passport/FOTOS DE BARACK OBAMA DELOS DESNUDOS 100% REAL NO FAKE",
+		"/home/juanjo/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/juanjo/Proyectos/Fongsp/first.pl",
+		"/home/juanjo/Proyectos/Fongsp/.htaccess",
+		"/home/juanjo/Proyectos/Fongsp/httpd.conf",
+		"/tmp/fz3temp-1/.htaccess",
+		"/home/juanjo/Proyectos/Fongsp/helloworld.py",
+		"/home/juanjo/Proyectos/Fongsp/fongspv5/.htaccess",
+		"/home/juanjo/Proyectos/Fongsp/helloperl.pl",
+		"/home/juanjo/Proyectos/Fongsp/fongspv5/fongsp/wsgi.py",
+		"/home/juanjo/Proyectos/Fongsp/fongspv5/fongsp/settings.py",
+		"/home/juanjo/Proyectos/Fongsp/fongspv5/comun/migrations/__init__.py",
+		"/home/juanjo/Proyectos/Fongsp/init-db.sql",
+		"/home/juanjo/Proyectos/Fongsp/fongspv5/feria/models.py",
+		"/home/juanjo/Proyectos/Fongsp/fongspv5/comun/migrations/0001_initial.py",
+		"/home/juanjo/Proyectos/kit-respuesta-rapida/kit_rr/urls.py",
+		"/home/juanjo/Descargas/db.sqlite3",
+		"/home/juanjo/Proyectos/KGuitarTools/KGuitarTools/freetboard.ui",
+		"/home/juanjo/Proyectos/KGuitarTools/asdf.py",
+		"/home/juanjo/Proyectos/Fongsp/settings.py",
+		"/home/juanjo/Proyectos/Fongsp/plaincgi.conf",
+		"/tmp/fz3temp-1/djangoproject.fcgi",
+		"/home/juanjo/Proyectos/Fongsp/fongspv5/intranet/__init__.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/juanjo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/juanjo/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/juanjo/Proyectos/KGuitarTools/ui_kguitar.py",
+		"/home/juanjo/Proyectos/KGuitarTools/KGuitarTools/widget.ui",
+		"/home/juanjo/Proyectos/KGuitarTools/kguitar.py",
+		"/home/juanjo/Proyectos/KGuitarTools/new.py",
+		"/home/juanjo/Proyectos/KGuitarTools/untitled.py",
+		"/home/juanjo/Proyectos/pykde5/CMakeLists.txt",
+		"/home/juanjo/Proyectos/pykde5/INSTALL",
+		"/home/juanjo/Proyectos/pykde5/__init__.py",
+		"/home/juanjo/Descargas/Paint(1).py",
+		"/home/juanjo/Descargas/Paint(2).py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Varela_Espejo__Juan_Pablo.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Paredes_Olave__Ivannia_Denisse.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Pizarro_Badilla__Alejandro_Ignacio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Ormeno_Sepulveda__Natalia_Genoveva.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Pino_Gaete__Javiera_Andrea.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/lista.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Millanao_Llopis__Javier_Antonio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Mendez_Freire__Vicente.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Garcia_Pinilla__Javier_Ignacio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Espinoza_Carrera__Diego_Alejandro.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Fuenzalida_Artigas__Alexandra_Ninoska.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/De_Laire_Seco__Raimundo_Alberto.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Corro_Tejeda__Romina_Alejandra.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Cortez_Carreno__Maria_Virginia.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Correa_Maldonado__Wolfgang_Felipe.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Correa_Arriagada__Juan_Jose.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Contreras_Varas__Carlos_Alonso.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Cofre_Saphier__Paula_Macarena.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Casimino_Salinas__Luis_Andres.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Carrasco_Parra__Miguel_Angel.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/estructura.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Moreno_Toledo__Jose_Luis.py",
+		"/home/juanjo/Auxiliar/CC1002/lista.py",
+		"/opt/sublime_text_3/sublime_text_3/sublime_text.desktop",
+		"/home/juanjo/Descargas/es_es/es_ES.dic",
+		"/home/juanjo/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/juanjo/.config/sublime-text-3/Packages/Anaconda/Default (Linux).sublime-keymap",
+		"/home/juanjo/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/juanjo/.config/sublime-text-3/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/juanjo/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/juanjo/.config/sublime-text-3/Packages/PlainTasks/Default (Linux).sublime-keymap",
+		"/home/juanjo/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/juanjo/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/juanjo/.config/sublime-text-3/Packages/PlainTasks/PlainTasks.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/PlainTasks/messages/install.txt",
+		"/home/juanjo/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/juanjo/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Avilez_Urtubia__Ignacio_Andres.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_12/Huerta_Tapia__Pedro_Isaac.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_22/Corro_Tejeda__Romina_Alejandra.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_22/Correa_Maldonado__Wolfgang_Felipe.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Santibanez_Guzman__Rodrigo_Javier/conjunto.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Santander_Urrutia__Daniel_Sebastian.zip/T3DanielSantander.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Salgado_De_la_Parra__Francisco_Adolfo/funciones.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Santander_Urrutia__Daniel_Sebastian.zip/T3 Programa DanielSantander.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Salgado_De_la_Parra__Francisco_Adolfo/interactivo.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Rogazy_Quintana__Andres_Joel/conjunto.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Rogazy_Quintana__Andres_Joel/programaConjuntos2.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Pizarro_Badilla__Alejandro_Ignacio.zip/interTareaTres.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Pizarro_Badilla__Alejandro_Ignacio.zip/tareaTres.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Park_Kwak__Andrea_Ji_Ye/Tarea3.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Lobos_Aliste__Franco_Nicolas/interactivo tarea 3.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Zapata_Martinez__Cristian_Ignacio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Vicencio_Salas__Catalina_Nahomi.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Villalobos_Montes__Pablo_Julio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Lizana_Pardo__David_Ignacio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Varela_Espejo__Juan_Pablo.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Pauta.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Silva_Pino__Jazmin_Ester.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Valdes_Valenzuela__Javier.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Sepulveda_Alvarez__Cristobal_Ignacio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Romano_Castillo__Victoria_Fernanda.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Sandoval_Aquea__Felipe_Ernesto.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Rojas_Godoy__Juan_Carlos.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Plaza_Luque__Gonzalo_Ignacio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Piquer_Franco__Cristobal_Esteban.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Pino_Gaete__Javiera_Andrea.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Paredes_Olave__Ivannia_Denisse.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Olivares_Gallardo__Gonzalo.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/User/Coding Python.sublime-snippet",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Millanao_Llopis__Javier_Antonio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Lobos_Villalobos__Fabian_Enrique.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Tiara_Torres__Rafael_Mirched.zip/Tarea3/Conjuntos2.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/juanjo/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Mendez_Freire__Vicente.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/Jedi - Python autocompletion/Default.sublime-keymap",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/Luppichini_Jofre__Renzo_Ignacio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Tarea3/De_Laire_Seco__Raimundo_Alberto.py",
+		"/home/juanjo/.config/sublime-text-3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_19/archivo.txt",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_19/Plaza_Luque__Gonzalo_Ignacio.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_19/Quilape_Paillal__Camila_Soledad.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_19/Seemann_Rodriguez__Diego_Anibal.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_19/Diaz_Gutierrez__Nicolas_Andres.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_19/Park_Kwak__Andrea_Ji_Ye.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_19/Pino_Gaete__Javiera_Andrea.py",
+		"/home/juanjo/Auxiliar/CC1002/2015/Ejercicio_clase_19/Piquer_Franco__Cristobal_Esteban.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"i",
+			"flags",
+			"python",
+			"allowov",
+			"allow",
+			"allowov",
+			"cgi",
+			"DROP TABLE acta_asistentes;                          \nDROP TABLE acta_compromiso;                              \nDROP TABLE acta_reunion;                             \nDROP TABLE acta_reunion_fongspitos_asistentes;\nDROP TABLE acta_tema;          \nDROP TABLE auth_group;                                   \nDROP TABLE auth_group_permissions;                       \nDROP TABLE auth_permission;                      \nDROP TABLE auth_user;                             \nDROP TABLE auth_user_groups;                             \nDROP TABLE auth_user_user_permissions;                   \nDROP TABLE blog_entrevista;                              \nDROP TABLE blog_noticia;                                \nDROP TABLE blog_noticia_organizaciones_asociadas;\nDROP TABLE blog_publicacion                      ;       \nDROP TABLE blog_testimonio                        ;      \nDROP TABLE comun_area_desarrollo                   ;     \nDROP TABLE comun_carrera                            ;    \nDROP TABLE comun_carrera_subDisciplinas              ;   \nDROP TABLE comun_comuna                               ;  \nDROP TABLE comun_disciplina;\nDROP TABLE comun_facultad   ;                            \nDROP TABLE comun_region      ;                           \nDROP TABLE comun_subdisciplina;                          \nDROP TABLE comun_universidad   ;                         \nDROP TABLE django_admin_log     ;                        \nDROP TABLE django_content_type   ;                       \nDROP TABLE django_migrations      ;                      \nDROP TABLE django_session          ;                     \nDROP TABLE estudiante_estudiante    ;                    \nDROP TABLE estudiante_estudiante_permisos;               \nDROP TABLE estudiante_permiso             ;              \nDROP TABLE feria_feria                     ;             \nDROP TABLE feria_feria_organizaciones_amigas;            \nDROP TABLE feria_feria_organizaciones_colaboradoras     ;\nDROP TABLE feria_feria_organizaciones_participantes     ;\nDROP TABLE feria_horarioentrevista                      ;\nDROP TABLE oferta_oferta_feria                          ;\nDROP TABLE oferta_oferta_feria_subDisciplina_enfocada;\nDROP TABLE organizacion_actividades                   ;  \nDROP TABLE organizacion_ofrecer                        ; \nDROP TABLE organizacion_organizacion                    ;\nDROP TABLE organizacion_organizacion_areas_de_desarrollo;\nDROP TABLE organizacion_organizacion_areas_de_interes   ;\nDROP TABLE organizacion_organizacion_permisos           ;\nDROP TABLE organizacion_permiso       ;",
+			"DROP",
+			"TABLE",
+			"eria_feria_",
+			"estudiante_",
+			"django",
+			"comun_",
+			"comun",
+			"blog",
+			"auth",
+			"acta",
+			"acta_asistentes",
+			" ",
+			"INSERT",
+			"organizacion_organizacion_areas_de_interes",
+			"<string>PushButton</string>",
+			"QPushButton",
+			"america",
+			"ejercicio_24",
+			"clicked",
+			"self.buttonNotePressed",
+			"buttonNote_6",
+			"ab",
+			"INSERTAR",
+			"print",
+			"valor(",
+			"valor",
+			"ctrl+shift+r",
+			"pytho",
+			"pep8",
+			"pep",
+			"h",
+			"f3",
+			"f",
+			"f1",
+			"goto",
+			"goo",
+			"esCon",
+			"superconjunto",
+			"sup",
+			"sub",
+			"string",
+			"cardinal",
+			"conjunto",
+			"print",
+			"string",
+			"sup",
+			"space",
+			"+x",
+			"+r",
+			"sup",
+			"auto",
+			"?",
+			"sup",
+			"resta",
+			"inter",
+			"union",
+			"-1",
+			"0",
+			"ctrl+sh",
+			"tutorial",
+			"no hay",
+			"cae",
+			"index",
+			"libasoun",
+			"libasound.so.2:",
+			"directory",
+			"document",
+			"insert into Festivales values (3, \"Internacional\");\ninsert into Festivales values (4, \"Internacional\");\ninsert into Festivales values (10, \"Internacional\");\ninsert into Festivales values (11, \"Internacional\");\ninsert into Festivales values (12, \"Internacional\");\ninsert into Festivales values (13, \"Independiente\");\ninsert into Festivales values (14, \"Internacional\");\ninsert into Festivales values (15, \"Documentales\");\ninsert into Festivales values (16, \"Fantasia\");\ninsert into Festivales values (17, \"Internacional\");\ninsert into Festivales values (19, \"Animación\");\n",
+			"Nominados",
+			"Premios",
+			"Productora",
+			"cine",
+			"Cine",
+			";\n",
+			"values;\n",
+			";",
+			"ó",
+			"idOrganización",
+			"ó",
+			"í",
+			"`",
+			"idFestival` ",
+			"`",
+			"`, ",
+			"idPelicula`,",
+			"`",
+			"mydb",
+			"NULL",
+			"Nominados",
+			"NULL",
+			"NO ACTION",
+			"NULL",
+			"ENGINE = InnoDB",
+			";\n",
+			"NULL",
+			"mydb",
+			"NULL",
+			"exce",
+			"responda",
+			"txt",
+			"error de s",
+			"read",
+			"matc",
+			"unre",
+			"ArandaCubilloJaimeAndres",
+			"parame",
+			"cíc",
+			"lower",
+			"txt",
+			"por fav",
+			"div",
+			"table",
+			"preview_div",
+			"gettr",
+			"div",
+			"imag",
+			"body",
+			"content",
+			"url",
+			"wrapp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "GmailCommunication.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								540,
+								540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "fact.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "fact2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "testFact.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "timeoutV2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_indent": false,
+							"default_dir": "/home/juanjo/Proyectos/Auxiliar",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "ab4db94c1ce848f49df5290119ee041e",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_indent": false,
+							"default_dir": "/home/juanjo/Proyectos/Auxiliar",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "1fd7680fc41a4fb8b3f343d674094123",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "auxiliar.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"run",
+				"De_Laire_Seco__Raimundo_Alberto.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 131.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"crearLi",
+				"crearLista"
+			],
+			[
+				"run",
+				"pregunta"
+			]
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
