@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*- 
 from GmailCommunication import GmailCommunication
 from TestWrapper import TestWrapper
-import time
-
+import time, sys, os, inspect
 
 def main(testFile, downloadsFolder, reportsFolder):
     gmail = GmailCommunication()
@@ -15,7 +14,7 @@ def main(testFile, downloadsFolder, reportsFolder):
                 msgFromMail = gmail.getHeaderFrom(message)
                 msgFromName = gmail.getStudentByMail(msgFromMail)
                 msgAtt = gmail.getAttachments(message, downloadsFolder, msgFromName)
-                reportFile = reportsFolder + msgFromName + ".html"
+                reportFile = os.path.join(reportsFolder, msgFromName + ".html")
                 if msgAtt != "":
                     t = TestWrapper(testFile, msgAtt, reportFile)
                     t.runTests()
@@ -25,7 +24,15 @@ def main(testFile, downloadsFolder, reportsFolder):
                 
         time.sleep(60)
 
-codeFolder = "/home/juanjo/Proyectos/Auxiliar/Attachments/"
-reportsFolder = "/home/juanjo/Proyectos/Auxiliar/Reports/"
-testFile = "/home/juanjo/Proyectos/Auxiliar/testPy.py"
-main(testFile, codeFolder, reportsFolder)
+directory = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+if len(sys.argv) > 1:
+    directory = sys.argv[0]
+
+reportsFolder = os.path.join(directory, "Reports")
+sourceCodeFolder = os.path.join(directory, "Attachments")
+testFile = os.path.join(directory, "Test.py")
+os.mkdir(reportsFolder)
+os.mkdir(sourceCodeFolder)
+
+
+main(testFile, sourceCodeFolder, reportsFolder)

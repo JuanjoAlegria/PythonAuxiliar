@@ -143,7 +143,7 @@ class GmailCommunication:
         
         return False # idem
         
-    def getAttachments(self, message, storeDir, msgStudentName = ""):
+    def getAttachments(self, message, storeDir, msgStudentName):
         """ getAttachments: Message -> string
             Obtiene y descarga el primer archivo adjunto asociado a un mensaje. Retorna la ruta del archivo
             descargado (con la extensión .py)
@@ -164,7 +164,7 @@ class GmailCommunication:
                     data = att['data']
 
                 fileData = base64.urlsafe_b64decode(data.encode('UTF-8'))
-                path = storeDir + msgStudentName + ".py"
+                path = os.path.join(storeDir, msgStudentName + ".py")
 
                 with open(path, 'w') as f:
                     f.write(fileData)
