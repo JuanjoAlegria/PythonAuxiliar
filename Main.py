@@ -30,11 +30,12 @@ def main(testFile, prevDir, currentDir, alreadyExistingModules = False):
             head, extension = os.path.splitext(pathToFile)
             if os.path.isfile(pathToFile) and extension == ".py" \
             and f != "conftest.py" and not f.lower().startswith("test"):
-                modules.append(f)
+                modules.append(pathToFile)
         print modules
         for module in modules:
             moduleName = os.path.splitext(os.path.split(module)[1])[0]
             reportFile = os.path.join(reportsFolder, moduleName + ".html")
+            print testFile, module, reportFile
             t = TestWrapper(testFile, module, reportFile)
             t.runTests()
 
