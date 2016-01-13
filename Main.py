@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 from GmailCommunication import GmailCommunication
 from TestWrapper import TestWrapper
-import time, os, inspect, sys, shutil
+from oauth2client import tools
+import time, os, inspect, sys, shutil, argparse
 
 def setupFilesAndFolders(thisDirectory, newDirectory):
     reportsFolder = os.path.join(newDirectory, "Reports")
@@ -9,21 +10,31 @@ def setupFilesAndFolders(thisDirectory, newDirectory):
     pytestConfig = os.path.join(thisDirectory, "conftest.py")
     newpytestConfig = os.path.join(newDirectory, "conftest.py")
 
+    if not os.path.exists(newDirectory):
+        os.mkdir(newDirectory)
     if not os.path.exists(reportsFolder):
         os.mkdir(reportsFolder)
     if not os.path.exists(sourceCodeFolder):
-        os.mkdir(sourceCodeFolder)  
+        os.mkdir(sourceCodeFolder)
 
     shutil.copyfile(pytestConfig, newpytestConfig)
     return sourceCodeFolder, reportsFolder
 
-def main(testFile, prevDir, currentDir, alreadyExistingModules = False):
+def main(args):
+    prevDir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+    currentDir = args.directory
+    testFile = args.testFile
+
+    if currentDir == None:
+        currentDir = prevDir
+    if testFile == None:
+        testFile = os.path.join(currentDir, "Test.py")
 
     downloadsFolder, reportsFolder = setupFilesAndFolders(prevDir, currentDir)
 
-    gmail = GmailCommunication()
+    gmail = GmailCommunication(args)
 
-    if alreadyExistingModules:
+    if args.alreadyExistingModules:
         modules = []
         for f in os.listdir(currentDir):
             pathToFile = os.path.join(currentDir,f)
@@ -56,41 +67,18 @@ def main(testFile, prevDir, currentDir, alreadyExistingModules = False):
                     gmail.createAndSendMessage(msgFromMail, reportsFolder, msgFromName + ".html")
 
                 oldMessages.append(m['id'])
-                
+
         time.sleep(60)
 
 
-def helpMessage():
-    s = 'Obtiene modulos a testear desde una cuenta de Gmail los testea y luego envía un reporte\n'
-    s+= 'Argumentos opcionales:\n'
-    s+= '\t --dir \t [DIRECTORIO] \t Directorio donde se trabajará\n'
-    s+= '\t --test \t [TESTFILE] \t Archivo .py con los tests a ejecutar\n'
-    s+= '\t --modules Asume que existen modulos a testear en la carpeta\n'
-    return s
-
 if __name__ == '__main__' :
-    thisDirectory = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-    directory = ""
-    testFile = ""
-    alreadyExistingModules = False
 
-    if len(sys.argv) > 1 and sys.argv[1] == "--h":
-        print helpMessage()
-        sys.exit(0)
+    parser = argparse.ArgumentParser(parents=[tools.argparser])
+    parser.add_argument("--dir", dest="directory", help="Directorio donde se trabajará")
+    parser.add_argument("--test", dest="testFile", help="Archivo .py con los tests a ejecutar")
+    parser.add_argument("--modules", dest="alreadyExistingModules", default=False, help="Asume que existen modulos a testear en la carpeta")
 
-    for arg in sys.argv:
-        if arg.startswith("--dir"):
-            directory = arg[6:]
-        if arg.startswith("--test"):
-            testFile = arg[11:]
-        if arg.startswith("--modules"):
-            alreadyExistingModules = True
-
-    if directory == "":
-        directory = thisDirectory
-    if testFile == "":
-        testFile = os.path.join(directory, "Test.py")
-
-
-
-    main(testFile, thisDirectory, directory, alreadyExistingModules)
+    args = parser.parse_args()
+    print args
+    print args.directory
+    main(args)

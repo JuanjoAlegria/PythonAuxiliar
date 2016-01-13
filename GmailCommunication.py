@@ -1,23 +1,26 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 from apiclient import discovery, errors
 from email.mime.audio import MIMEAudio
 from email.mime.base import MIMEBase
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from oauth2client import tools
 import mimetypes
 import oauth2client
 import json
 import httplib2
 import os
 import base64
+import argparse
 
 
 class GmailCommunication:
     STANDARD_SUBJECT = "Reporte de tests"
 
-    def __init__(self):
-        self.flags = ""
+    def __init__(self, flags):
+        #self.flags = argparse.ArgumentParser(parents=[tools.argparser]).parse_args()
+        self.flags = flags
         self.scopes = 'https://mail.google.com/'
         self.client_secret_file = 'client_secret.json'
         self.application_name = 'Auxiliar CC1002'
@@ -29,7 +32,7 @@ class GmailCommunication:
         self.query = self.buildQuery()
 
     def getSender(self):
-        with open('config.json') as data_file:    
+        with open('config.json') as data_file:
             data = json.load(data_file)
             return data["myMail"]
 
@@ -39,7 +42,7 @@ class GmailCommunication:
             almacenados en el archivo config.json
         """
         d = {}
-        with open('config.json') as data_file:    
+        with open('config.json') as data_file:
             data = json.load(data_file)
             for email in data["emails"]:
                 d[email['mail']] = email['alumno']
@@ -124,7 +127,7 @@ class GmailCommunication:
         try:
             message = self.service.users().messages().get(userId="me", id=id).execute()
             return message
-            
+
         except errors.HttpError, error:
             print 'An error occurred: %s' % error
 
@@ -137,22 +140,22 @@ class GmailCommunication:
                 partsOfTheHeader = header['value'].split(" ")
                 for s in partsOfTheHeader:
                     if s[0] == "<" and s[-1] == ">": return s[1:-1]
-                
+
                 return False # no se encontró el mail
-        
+
         return False # idem
-        
+
     def getAttachments(self, message, storeDir, msgStudentName):
         """ getAttachments: Message -> string
             Obtiene y descarga el primer archivo adjunto asociado a un mensaje. Retorna la ruta del archivo
             descargado (con la extensión .py)
         """
         msgId = message['id']
-        
+
         if msgStudentName == "":
             msgFrom = self.getHeaderFrom(message)
             msgStudentName = self.studentsMails[msgFrom]
-        
+
         for part in message['payload']['parts']:
             if part['filename']:
                 if 'data' in part['body']:
@@ -248,7 +251,5 @@ class GmailCommunication:
         sentMessage = self.sendMessage(message)
         return sentMessage
 
-# if __name__ == '__main__':
-#     g = GmailCommunication()
-#     g.buildQuery()
-#     g.getMessages()
+if __name__ == '__main__':
+    g = GmailCommunication()

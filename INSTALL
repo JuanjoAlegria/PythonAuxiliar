@@ -1,0 +1,6 @@
+Prerequisitos (todo es instalable vía PIP)
+
+google-api-python-client
+pytest
+pytest-html
+pytest-timeout

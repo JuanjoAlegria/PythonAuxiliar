@@ -1,0 +1,6 @@
+Uso:
+
+Configurar en config.json la dirección de email personal (donde se recibirán y enviarán los correos), y los emails de los alumnos (aquellos de quienes se espera que utilicen el servicio). Sólo los correos enviados por estos alumnos serán considerados (por ahora, en el archivo config.json están los dos correos del autor, que fueron utilizados para probar el servicio)
+
+Crear una carpeta donde queramos trabajar (ej: Auxiliar/Clase1), y crear en esta carpeta un archivo llamado Test.py con los tests a correr (revisar los ejemplos en la carpeta Examples: en esta carpeta hay tres archivos que simulan ser enviados por alumnos -m1,m2,m3 -, un archivo llamado testPy.py que contiene los tests a correr, y un archivo llamado test.py que ejecuta los tests sobre cada archivo y genera el reporte correspondiente en la carpeta Reports)
+
